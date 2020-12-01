@@ -174,6 +174,9 @@ function fetchmsg() {
       }
       try{
         document.getElementById("qw").innerHTML ="<div>"+ response.Reply.fulfillmentMessages[1].text.text+"</div>";
+        $('.carousel').carousel({
+          interval: 3000
+        });
       }
       catch{
         
