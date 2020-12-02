@@ -184,7 +184,7 @@ function fetchmsg() {
     
       try{
           if(response.Reply.fulfillmentMessages[2].text.text == "small"){
-            $("#qw").css("float","none")
+            $("#qw").css({"float":"none","width":"max-content"})
             $(document).ready(function(){
                 $(".gif").animate({
                   top: '5px',
@@ -196,7 +196,7 @@ function fetchmsg() {
           }
 
           else if(response.Reply.fulfillmentMessages[2].text.text == "big"){
-            $("#qw").css("float","left")
+            $("#qw").css({"float":"left","width":"58%"})
             $(document).ready(function(){
                 $(".gif").animate({
                   right: '-135px',
@@ -208,8 +208,8 @@ function fetchmsg() {
           }
       }
       catch(err){
-            $("#qw").css("float","left")
-            $(document).ready(function(){
+        $("#qw").css({"float":"left","width":"58%"})
+        $(document).ready(function(){
                 $(".gif").animate({
                   right: '-135px',
                   top: '201px',
