@@ -183,18 +183,7 @@ function fetchmsg() {
       }
     
       try{
-          if(response.Reply.fulfillmentMessages[2].text.text == null){
-            $(document).ready(function(){
-                $(".gif").animate({
-                  right: '-135px',
-                  top: '201px',
-                  width: '700px',
-                  height: '525px',
-                });
-            });
-          }
-
-          else if(response.Reply.fulfillmentMessages[2].text.text == "small"){
+          if(response.Reply.fulfillmentMessages[2].text.text == "small"){
             $(document).ready(function(){
                 $(".gif").animate({
                   top: '5px',
