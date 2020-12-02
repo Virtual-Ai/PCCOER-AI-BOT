@@ -184,6 +184,7 @@ function fetchmsg() {
     
       try{
           if(response.Reply.fulfillmentMessages[2].text.text == "small"){
+            $("#qw").css("float","none")
             $(document).ready(function(){
                 $(".gif").animate({
                   top: '5px',
@@ -195,6 +196,7 @@ function fetchmsg() {
           }
 
           else if(response.Reply.fulfillmentMessages[2].text.text == "big"){
+            $("#qw").css("float","left")
             $(document).ready(function(){
                 $(".gif").animate({
                   right: '-135px',
@@ -206,7 +208,8 @@ function fetchmsg() {
           }
       }
       catch(err){
-             $(document).ready(function(){
+            $("#qw").css("float","left")
+            $(document).ready(function(){
                 $(".gif").animate({
                   right: '-135px',
                   top: '201px',
@@ -217,12 +220,14 @@ function fetchmsg() {
       }
 
       try{
+        speechSynthesis.cancel();
         var utterThis = new SpeechSynthesisUtterance(response.Reply.fulfillmentMessages[0].simpleResponses.simpleResponses[0].textToSpeech);
         utterThis.voice = voices[4];
         utterThis.lang = "hi-IN";
         synth.speak(utterThis);
       }
       catch(err){
+        speechSynthesis.cancel();
         var utterThis = new SpeechSynthesisUtterance(response.Reply.fulfillmentMessages[0].text.text);
         utterThis.voice = voices[4];
         utterThis.lang = "hi-IN";
