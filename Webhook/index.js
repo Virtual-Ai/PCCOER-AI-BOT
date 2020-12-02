@@ -52,6 +52,15 @@ app.post("/",express.json(),(req,res) => {
       agent.add("<img src='https://previews.dropbox.com/p/thumb/AA8S5vae0OupmtrNiFC1n4bZM-vLq3m0UCgUOLlV1pvir1J0j7FVJzwJXh0BY26tlyzd5RJQP8pE0e_V1rTHwFzDJy5NAq56FNJfJMWIyShX69M1XWWX4jzhx3XhPNvst8bilfKz64BY04m0Q1wn29hw2hPV7I6CVd_k8gjdiTxkVByBs96VfPkq_EDbBPeI01UNE2FhigvoI9zXCHq3S0zjR2PnUux1YMFq1tugjOo2QLAGceJTuJrXYTc3vgzPP8iJks94yUfcv6HZ3aFs6eW1k8F6ntNyc_h8qRLL0sR-nE2dGbz79a0BLfkVl4JxF04gZERAkRTjPqb-3mUT7Pi7Y8YSzLjWtjnTfFU5hREFFT7poaQpRYuJdSJFD_84qT0/p.png?fv_content=true&size_mode=5' style= width:850px;>");
     }
 
+    function Bus_Route2(agent){
+      agent.add("Refer to the routes displayed in the Map, I suggest you to confirm from the admin office as well.");
+      agent.add("<img src='https://aipccoerbot.files.wordpress.com/2020/12/2.png?fv_content=true&size_mode=5' style= width:850px;>");
+    }
+  
+    function Bus_Route3(agent){
+      agent.add("Refer to the routes displayed in the Map, I suggest you to confirm from the admin office as well.");
+      agent.add("<img src='https://aipccoerbot.files.wordpress.com/2020/12/3.png?fv_content=true&size_mode=5' style= width:850px;>");
+    }
 
 
     var intentMap = new Map();
@@ -61,7 +70,8 @@ app.post("/",express.json(),(req,res) => {
     intentMap.set("Teachers List-Computer",CompProf_list);
     intentMap.set("labs-gallery",infra_labs);
     intentMap.set("Bus Route 1",Bus_Route1);
-    intentMap.set("Bus Route 1",Bus_Route1);
+    intentMap.set("Bus Route 2",Bus_Route2);
+    intentMap.set("Bus Route 3",Bus_Route3);
     agent.handleRequest(intentMap);
  });
 
