@@ -1214,8 +1214,8 @@ font-size: 14px !important;
 }
 
 .card-avatar {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   object-position: center;
@@ -1253,7 +1253,7 @@ font-size: 14px !important;
 
 .card-main {
   display: flex;
-  padding-top: 10px;
+  padding-top: 0px;
   flex-direction: column;
 }
 
