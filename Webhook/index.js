@@ -73,10 +73,10 @@ app.post("/",express.json(),(req,res) => {
     agent.add("small");
     }
 
-    function admissionDoc(agent){
+   function admissionDoc(agent){
       agent.add("These are the documents required for admission in PCCOER");
-      agent.add('<div class="container"><br><div class = "carousel-container">    <div id="myCarousel" class="carousel slide" data-ride="carousel">        <div class="carousel-inner" role="listbox">            <div class="item active">                <img src="https://aipccoerbot.files.wordpress.com/2020/12/document-list.jpg?w=636" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Required Admission Documents List</p>            </div>        </div>    </div></div></div>');
-     
+      agent.add('<div class="container"><br><div class = "carousel-container">    <div id="myCarousel" class="carousel slide" data-ride="carousel">        <div class="carousel-inner" role="listbox">            <div class="item active">                <center><img src="https://aipccoerbot.files.wordpress.com/2020/12/document-list.jpg?w=636" alt="Chania" width="550" height="425"></center>                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Required Admission Documents List</p>            </div>        </div>    </div></div></div>');
+      agent.add("small");
     }
 
     var intentMap = new Map();
