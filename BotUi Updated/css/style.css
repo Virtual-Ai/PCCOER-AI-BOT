@@ -1489,15 +1489,186 @@ font-size: 14px !important;
 } 
 .container{width:730px !important;
     border-radius:10px;
+  
 }
 .carousel-container{
     padding: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 15px #6884FF !important ;
+    box-shadow: 0 0 30px #6884FF !important ;
 }
 img{
     border-radius: 10px;
 }
 .carousel-control{
     border-radius: 10px;
+}
+
+/* 
+=============principal wala card============== */
+
+.cardpr {
+  color: #ffffff !important;
+font-family: 'Jost', sans-serif !important;
+background-color: #000000 !important;
+font-size: 14px !important;
+  max-width: 700px;
+  margin: auto;
+  overflow-y: auto;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  transition: 0.3s;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 11px #6884FF ;
+}
+  .card-coverpr {
+    height: 100px;
+    top: -50px;
+  }
+
+  .card-avatarpr {
+    transform: none;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+  }
+
+  .card-fullnamepr,
+  .card-jobtitlepr {
+    left: 86px;
+    transform: none;
+  }
+
+  .card-fullnamepr {
+    bottom: 18px;
+    font-size: 19px;
+  }
+
+  .card-jobtitlepr {
+    bottom: 16px;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+
+
+.card-headerpr {
+  position: relative;
+  display: flex;
+  height: 280px;
+  flex-shrink: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.card-coverpr {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  height: 160px;
+  top: -20%;
+  left: 0;
+  will-change: top;
+  background-size: cover;
+  background-position: center;
+  filter: blur(30px);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.card-avatarpr {
+  width: 180px;
+  height: 180px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-64px);
+}
+
+.card-fullnamepr {
+  position: absolute;
+  bottom: 0;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  transform: translateY(-10px) translateX(-50%);
+  left: 50%;
+}
+
+.card-jobtitlepr {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  white-space: nowrap;
+  font-weight: 500;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-7px);
+}
+
+.card-mainpr {
+  display: flex;
+  padding-top: 0px;
+  flex-direction: column;
+}
+
+.card-subtitlepr {
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.card-contentpr {
+  padding-bottom: 20px;
+  
+  padding-left: 20px;
+  
+  padding-right: 20px;
+}
+
+.card-descpr {
+  line-height: 1.6;
+  color: #636b6f;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+
+.card-sectionpr {
+  display: none;
+  
+}
+
+.card-itempr {
+  position: relative;
+  padding-left: 60px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  z-index: 1;
+
+}
+
+.card-item-titlepr {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card-item-descpr {
+  font-size: 13px;
+  color: #6f6f7b;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
 }
