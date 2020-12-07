@@ -1672,3 +1672,62 @@ font-size: 14px !important;
   line-height: 1.5;
   font-family: "DM Sans", sans-serif;
 }
+/* 
+===================Gallery=================== */
+
+.cards-listt {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cardt {
+  margin: 30px auto;
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+box-shadow: 0 0 15px #6884FF ;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card_imaget {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+
+  border-width: 10px ;
+}
+
+.card_imaget img {
+  width: inherit;
+  height: inherit;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card_titlet {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+@media all and (max-width: 500px) {
+  .card-listt {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.carousel-containersm{
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #6884FF;
+  max-height: 700px !important ;
+}
