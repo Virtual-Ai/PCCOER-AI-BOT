@@ -103,6 +103,12 @@ app.post("/",express.json(),(req,res) => {
       agent.add('<div class="container"><br><div class = "carousel-container">    <div id="myCarousel" class="carousel slide" data-ride="carousel">        <div class="carousel-inner" role="listbox">            <div class="item active">                <center><img src="https://aipccoerbot.files.wordpress.com/2020/12/document-list.jpg?w=636" alt="Chania" width="550" height="425"></center>                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Required Admission Documents List</p>            </div>        </div>    </div></div></div>');
       agent.add("small");
     }
+  function Eventss(agent){
+   agent.add("These are the events at PCCOER");
+    agent.add('<table cellpadding="20px">   <div class="cards-listt">  <tr><td>    <div class="cardt 1">  <div class="card_imaget">     <img src="http://pccoer.com/images/event/convocation-2020/convocation-ceremony-pccoer-1.JPG">  </div>  </div></td><td>  <div class="cardt 2">  <div class="card_imaget">    <img src="http://pccoer.com/images/event/expressions-2020/annual-gathering-expressions-2020-pccoer-1.JPG">    </div></div></td><td><div class="cardt 3">  <div class="card_imaget">    <img src="http://pccoer.com/images/event/cipcis_events/cipcis-events-1.jpg">  </div></div>  </td><td>  <div class="cardt 4">  <div class="card_imaget">    <img src="http://pccoer.com/images/event/nba-events/nba-events-1.jpg">    </div>  </div>  </td></tr></div><div class="cards-listt">  <tr>    <td>  <div class="cardt 1">    <div class="card_imaget">       <img src="http://pccoer.com/images/event/convocation-2020/convocation-ceremony-pccoer-1.JPG">    </div>  </div>  </td>  <td>    <div class="cardt 2">    <div class="card_imaget">      <img src="http://pccoer.com/images/event/expressions-2020/annual-gathering-expressions-2020-pccoer-1.JPG">      </div>  </div>  </td>  <td>  <div class="cardt 3">    <div class="card_imaget">      <img src="http://pccoer.com/images/event/cipcis_events/cipcis-events-1.jpg">    </div>  </div>    </td>    <td>    <div class="cardt 4">    <div class="card_imaget">      <img src="http://pccoer.com/images/event/nba-events/nba-events-1.jpg">      </div>    </div>  </td>  </tr>  </div></table>');
+    agent.add("small");
+  }
+  
 
     var intentMap = new Map();
     intentMap.set("Achievements and Awards", awards);
