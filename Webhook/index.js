@@ -176,6 +176,13 @@ function principalnterview(agent){
   agent.add("small");
 }
   
+  /*========================================= Department Highlights =================================================*/
+function compHighlights(agent){
+  agent.add('Computer Department are as follows');
+  agent.add(' <body><img src="https://aipccoerbot.files.wordpress.com/2020/12/department-highlights-1-1.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
+  agent.add("small");
+}
+
 
     var intentMap = new Map();
     intentMap.set("Achievements and Awards", awards);
@@ -203,6 +210,8 @@ function principalnterview(agent){
     intentMap.set("cutoffs",cutoffs);
     intentMap.set("QuesPapers",quesp);
     intentMap.set("PrincipalInterview",principalnterview);
+  intentMap.set("Computer Department Higlights",compHighlights);
+
    
     agent.handleRequest(intentMap);
  });
