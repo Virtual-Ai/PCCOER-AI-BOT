@@ -1489,18 +1489,21 @@ font-size: 14px !important;
 } 
 .container{width:730px !important;
     border-radius:10px;
-  
 }
 .carousel-container{
     padding: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 30px #6884FF !important ;
+    box-shadow: 0 0 15px #6884FF !important ;
 }
 img{
     border-radius: 10px;
 }
 .carousel-control{
     border-radius: 10px;
+}
+.carousel {
+  border-radius: 10px;
+  background-color: black;  /*dlflf*/
 }
 
 /* 
