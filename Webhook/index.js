@@ -137,6 +137,45 @@ app.post("/",express.json(),(req,res) => {
       agent.add("small");
     }
   
+  
+/*========================================= All QRCodes =================================================*/
+    function collegeWebsite(agent){
+      agent.add('college website')
+agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/ai-bot-3.png" style=" height: 450px; width: 650px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
+agent.add("small");    
+}
+    
+function erp(agent){
+  agent.add('ERP')
+agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/3-3.png" style=" height: 450px; width: 650px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
+agent.add("small");    
+}
+
+function locnmap(agent){
+  agent.add('Location on Map')
+agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/5-1.png" style=" height: 450px; width: 650px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
+agent.add("small");    
+}
+
+
+function cutoffs(agent){
+  agent.add('Cut off')
+agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/4-1.png" style=" height: 450px; width: 650px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
+agent.add("small");    
+}
+
+function quesp(agent){
+  agent.add('SPPU Question papers')
+agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/ai-bot-5.png" style=" height: 450px; width: 650px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
+agent.add("small");    
+}
+
+function principalnterview(agent){
+  agent.add('Interview of Principal, H.U. Tiwari Sir');
+  agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/ai-bot-4.png" style=" height: 450px; width: 650px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
+  agent.add("small");
+}
+  
 
     var intentMap = new Map();
     intentMap.set("Achievements and Awards", awards);
@@ -158,6 +197,12 @@ app.post("/",express.json(),(req,res) => {
     intentMap.set("Principal",princi);
     intentMap.set("admissionDocument",admissionDoc);
     intentMap.set("Events",Eventss);
+    intentMap.set("college_website",collegeWebsite);
+    intentMap.set("ERP",erp);
+    intentMap.set("Location on Map",locnmap);
+    intentMap.set("cutoffs",cutoffs);
+    intentMap.set("QuesPapers",quesp);
+    intentMap.set("PrincipalInterview",principalnterview);
    
     agent.handleRequest(intentMap);
  });
