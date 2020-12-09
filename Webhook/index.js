@@ -220,7 +220,7 @@ agent.add("small");
 
 function admissionflow(agent){
   agent.add('Process for admission in PCCOER. If you want to know about the documents required please ask required documents ');
-agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/department-highlights-2.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
+agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/admission-process-flowchart.png?w=626" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>');
 agent.add("small"); 
   agent.add("cetex");
 }
