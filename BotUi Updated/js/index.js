@@ -218,6 +218,17 @@ function fetchmsg() {
                 });
             });
       }
+    
+    //vertical alignment
+     try{
+        if(response.Reply.fulfillmentMessages[3].text.text == "cetex"){
+          $(".messages-content").css({"justify-content": "center", "align-items": "center !important"});
+        }
+    }
+    catch(err){
+      $(".messages-content").css({"justify-content": "center", "align-items": "center"})
+    }
+//
 
       try{
         speechSynthesis.cancel();
