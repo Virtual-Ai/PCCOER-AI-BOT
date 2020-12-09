@@ -119,6 +119,8 @@ Messages
   width: 100%;
 }
 .messages .messages-content {
+  display: flex !important;
+  align-items: center !important;
   position: absolute;
   top: 0;
   left: 0;
