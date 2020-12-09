@@ -121,10 +121,11 @@ Messages
 .messages .messages-content {
   display: flex !important;
   align-items: center !important;
+  vertical-align: top;
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 101%;
+  top: -70px;
+  /*left: 0;*/
+  height: 100%;
   width: 100%;
   overflow: auto;
 }
