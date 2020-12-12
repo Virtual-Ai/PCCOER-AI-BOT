@@ -235,28 +235,34 @@ agent.add("small");
        case 'admin office':agent.add("Admin office is on first floor room 102");
        agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/admin_office_new.png?w=1024" style="width: 1200px; border-radius:0px;"></body>')  
        agent.add("small");
+       agent.add("cetex");
          break;
        case 'principal office':agent.add("Principal office is on first floor room 101")
 
        agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/2-3.png?w=1024" style="width: 1200px; border-radius:0px;"></body>');
        agent.add("small")
+       agent.add("cetex");
          break;
        case 'account office':agent.add("Account office is on first floor room 104")
 
        agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/3-4.png?w=1024" style="width: 1200px; border-radius:0px;"></body>');
        agent.add("small")
+       agent.add("cetex");
          break;
        case 'seminar hall':agent.add("Seminar Hall is on second floor room 210")
        agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/4-2.png?w=1024" style="width: 1200px; border-radius:0px;"></body>');
        agent.add("small")
+       agent.add("cetex");
          break;
       case 'fe HOD office':agent.add("First year HOD Office is on Third floor room 313")
          agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/6-1.png?w=1024" style="width: 1200px; border-radius:0px;"></body>');
          agent.add("small")
+         agent.add("cetex");
            break;
       case 'FE staff room':agent.add("first year staff room is on third floor room 301")
            agent.add('<body><img src="https://aipccoerbot.files.wordpress.com/2020/12/5-2.png?w=1024" style="width: 1200px; border-radius:0px;"></body>');
            agent.add("small")
+           agent.add("cetex");
              break;
        
        default:agent.add(" I didn't understand!");
