@@ -295,7 +295,7 @@ agent.add("small");
     intentMap.set("Principal",princi);
     intentMap.set("admissionDocument",admissionDoc);
     intentMap.set("Events",Eventss);
-    intentMap.set("college_website",collegeWebsite);
+    intentMap.set("college_website_time_id_phn",collegeWebsite);
     intentMap.set("ERP",erp);
     intentMap.set("College_Location",locnmap);
     intentMap.set("cutoffs",cutoffs);
