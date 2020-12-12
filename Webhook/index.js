@@ -301,7 +301,7 @@ agent.add("small");
     intentMap.set("cutoffs",cutoffs);
     intentMap.set("QuesPapers",quesp);
     intentMap.set("PrincipalInterview",principalnterview);
-    intentMap.set("Computer Department Higlights",compHighlights);
+    intentMap.set("Department info - comp",compHighlights);
     intentMap.set("Admission_FE",admissionflow);
     intentMap.set('floor_maps',floor_maps);
 
