@@ -109,7 +109,7 @@ Chat Title
 Messages
 --------------------*/
 .messages {
-  display: flex !important;
+  display: flex;
   align-items: center !important;
   justify-content: center !important;
   flex: 1 1 auto;
@@ -119,15 +119,15 @@ Messages
   width: 100%;
 }
 .messages .messages-content {
-  display: flex !important;
   align-items: center !important;
   vertical-align: top;
   position: absolute;
-  top: -70px;
+  /* top: -70px; */
   /*left: 0;*/
   height: 100%;
   width: 100%;
   overflow: auto;
+  display: flex;
 }
 ::-webkit-scrollbar {
   width: 1px;
@@ -203,6 +203,7 @@ Messages
 .messages .message.new {
   -webkit-transform: scale(0);
   float: left;
+  width: 58%;
   transform: scale(0);
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
@@ -210,8 +211,9 @@ Messages
   animation: bounce 500ms linear both;
   top: 6%;
   margin: 0 auto;
-  width: max-content;
+
   background: #000000;
+  text-align: center;
 }
 .messages .message.loading::before {
   position: absolute;
@@ -304,7 +306,7 @@ Message Box
   margin: 0;
   padding-right: 15px;
   width: 100%;
-  display: none;
+  /* display: none; */
 }
 .message-box textarea:focus:-webkit-placeholder {
   color: #191919;
@@ -326,7 +328,7 @@ Message Box
   border-radius: 20px;
   outline: none !important;
   transition: background 0.2s ease;
-  display: none;
+  /* display: none; */
 }
 .message-box .message-submit:hover {
   background: #1d7745;
@@ -1142,12 +1144,11 @@ i {
   height: auto;
 }
 
-
 .card {
   color: #ffffff !important;
-font-family: 'Jost', sans-serif !important;
-background-color: #000000 !important;
-font-size: 14px !important;
+  font-family: 'Jost', sans-serif !important;
+  background-color: #000000 !important;
+  font-size: 14px !important;
   max-width: 500px;
   margin: auto;
   overflow-y: auto;
@@ -1159,38 +1160,37 @@ font-size: 14px !important;
   transition: 0.3s;
   flex-direction: column;
   border-radius: 10px;
-  box-shadow: 0 0 11px #6884FF ;
+  box-shadow: 0 0 11px #6884ff;
 }
-  .card-cover {
-    height: 100px;
-    top: -50px;
-  }
+.card-cover {
+  height: 100px;
+  top: -50px;
+}
 
-  .card-avatar {
-    transform: none;
-    left: 20px;
-    width: 50px;
-    height: 50px;
-    bottom: 10px;
-  }
+.card-avatar {
+  transform: none;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+}
 
-  .card-fullname,
-  .card-jobtitle {
-    left: 86px;
-    transform: none;
-  }
+.card-fullname,
+.card-jobtitle {
+  left: 86px;
+  transform: none;
+}
 
-  .card-fullname {
-    bottom: 18px;
-    font-size: 19px;
-  }
+.card-fullname {
+  bottom: 18px;
+  font-size: 19px;
+}
 
-  .card-jobtitle {
-    bottom: 16px;
-    letter-spacing: 1px;
-    font-size: 10px;
-  }
-
+.card-jobtitle {
+  bottom: 16px;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
 
 .card-header {
   position: relative;
@@ -1268,9 +1268,9 @@ font-size: 14px !important;
 
 .card-content {
   padding-bottom: 20px;
-  
+
   padding-left: 20px;
-  
+
   padding-right: 20px;
 }
 
@@ -1280,12 +1280,11 @@ font-size: 14px !important;
   font-size: 14px;
   margin: 0;
   font-weight: 400;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .card-section {
   display: none;
-  
 }
 
 .card-item {
@@ -1294,7 +1293,6 @@ font-size: 14px !important;
   padding-right: 20px;
   padding-bottom: 30px;
   z-index: 1;
-
 }
 
 .card-item-title {
@@ -1307,18 +1305,16 @@ font-size: 14px !important;
   font-size: 13px;
   color: #6f6f7b;
   line-height: 1.5;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
-
 
 /* ================  Chota card/List =============================== */
 
-
 .cardch {
   color: #ffffff !important;
-font-family: 'Jost', sans-serif !important;
-background-color: #000000 !important;
-font-size: 14px !important; 
+  font-family: 'Jost', sans-serif !important;
+  background-color: #000000 !important;
+  font-size: 14px !important;
   width: 300px;
   margin: auto;
   overflow-y: auto;
@@ -1331,38 +1327,37 @@ font-size: 14px !important;
   transition: 0.3s;
   flex-direction: column;
   border-radius: 10px;
-  box-shadow: 0 0 10px #6884FF ;
+  box-shadow: 0 0 10px #6884ff;
 }
-  .card-coverch {
-    height: 100px;
-    top: -50px;
-  }
+.card-coverch {
+  height: 100px;
+  top: -50px;
+}
 
-  .card-avatarch {
-    transform: none;
-    left: 20px;
-    width: 50px;
-    height: 50px;
-    bottom: 10px;
-  }
+.card-avatarch {
+  transform: none;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+}
 
-  .card-fullnamech,
-  .card-jobtitlech {
-    left: 86px;
-    transform: none;
-  }
+.card-fullnamech,
+.card-jobtitlech {
+  left: 86px;
+  transform: none;
+}
 
-  .card-fullnamech {
-    bottom: 18px;
-    font-size: 19px;
-  }
+.card-fullnamech {
+  bottom: 18px;
+  font-size: 19px;
+}
 
-  .card-jobtitlech {
-    bottom: 16px;
-    letter-spacing: 1px;
-    font-size: 10px;
-  }
-
+.card-jobtitlech {
+  bottom: 16px;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
 
 .card-headerch {
   position: relative;
@@ -1444,22 +1439,20 @@ font-size: 14px !important;
 
 .card-sectionch {
   display: none;
-  
 }
 
 .card-timelinech {
   margin-top: 30px;
   position: relative;
- 
-    content: "";
-    left: 42px;
-    width: 2px;
-    top: 0;
-    height: 100%;
-    position: absolute;
-    content: "";
-  }
 
+  content: '';
+  left: 42px;
+  width: 2px;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  content: '';
+}
 
 .card-itemch {
   position: relative;
@@ -1467,7 +1460,6 @@ font-size: 14px !important;
   padding-right: 20px;
   padding-bottom: 30px;
   z-index: 1;
-
 }
 
 .card-item-titlech {
@@ -1480,33 +1472,35 @@ font-size: 14px !important;
   font-size: 13px;
   color: #6f6f7b;
   line-height: 1.5;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .card-contact-wrapperch {
   margin-top: 20px;
-}/* 
+} /* 
 =============awards wala carousel============== */
 
-.carousel-inner{border-radius:10px;   
-} 
-.container{width:730px !important;
-    border-radius:10px;
+.carousel-inner {
+  border-radius: 10px;
 }
-.carousel-container{
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px #6884FF !important ;
+.container {
+  width: 730px !important;
+  border-radius: 10px;
 }
-img{
-    border-radius: 10px;
+.carousel-container {
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #6884ff !important ;
 }
-.carousel-control{
-    border-radius: 10px;
+img {
+  border-radius: 10px;
+}
+.carousel-control {
+  border-radius: 10px;
 }
 .carousel {
   border-radius: 10px;
-  background-color: black;  /*dlflf*/
+  background-color: black; /*dlflf*/
 }
 
 /* 
@@ -1514,9 +1508,9 @@ img{
 
 .cardpr {
   color: #ffffff !important;
-font-family: 'Jost', sans-serif !important;
-background-color: #000000 !important;
-font-size: 14px !important;
+  font-family: 'Jost', sans-serif !important;
+  background-color: #000000 !important;
+  font-size: 14px !important;
   max-width: 700px;
   margin: auto;
   overflow-y: auto;
@@ -1528,38 +1522,37 @@ font-size: 14px !important;
   transition: 0.3s;
   flex-direction: column;
   border-radius: 10px;
-  box-shadow: 0 0 11px #6884FF ;
+  box-shadow: 0 0 11px #6884ff;
 }
-  .card-coverpr {
-    height: 100px;
-    top: -50px;
-  }
+.card-coverpr {
+  height: 100px;
+  top: -50px;
+}
 
-  .card-avatarpr {
-    transform: none;
-    left: 20px;
-    width: 50px;
-    height: 50px;
-    bottom: 10px;
-  }
+.card-avatarpr {
+  transform: none;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+}
 
-  .card-fullnamepr,
-  .card-jobtitlepr {
-    left: 86px;
-    transform: none;
-  }
+.card-fullnamepr,
+.card-jobtitlepr {
+  left: 86px;
+  transform: none;
+}
 
-  .card-fullnamepr {
-    bottom: 18px;
-    font-size: 19px;
-  }
+.card-fullnamepr {
+  bottom: 18px;
+  font-size: 19px;
+}
 
-  .card-jobtitlepr {
-    bottom: 16px;
-    letter-spacing: 1px;
-    font-size: 10px;
-  }
-
+.card-jobtitlepr {
+  bottom: 16px;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
 
 .card-headerpr {
   position: relative;
@@ -1637,9 +1630,9 @@ font-size: 14px !important;
 
 .card-contentpr {
   padding-bottom: 20px;
-  
+
   padding-left: 20px;
-  
+
   padding-right: 20px;
 }
 
@@ -1649,12 +1642,11 @@ font-size: 14px !important;
   font-size: 14px;
   margin: 0;
   font-weight: 400;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .card-sectionpr {
   display: none;
-  
 }
 
 .card-itempr {
@@ -1663,7 +1655,6 @@ font-size: 14px !important;
   padding-right: 20px;
   padding-bottom: 30px;
   z-index: 1;
-
 }
 
 .card-item-titlepr {
@@ -1676,7 +1667,7 @@ font-size: 14px !important;
   font-size: 13px;
   color: #6f6f7b;
   line-height: 1.5;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 /* 
 ===================Gallery=================== */
@@ -1694,7 +1685,7 @@ font-size: 14px !important;
   width: 200px;
   height: 150px;
   border-radius: 20px;
-box-shadow: 0 0 15px #6884FF ;
+  box-shadow: 0 0 15px #6884ff;
   cursor: pointer;
   transition: 0.4s;
 }
@@ -1704,7 +1695,7 @@ box-shadow: 0 0 15px #6884FF ;
   height: inherit;
   border-radius: 20px;
 
-  border-width: 10px ;
+  border-width: 10px;
 }
 
 .card_imaget img {
@@ -1731,9 +1722,14 @@ box-shadow: 0 0 15px #6884FF ;
   }
 }
 
-.carousel-containersm{
+.carousel-containersm {
   padding: 0px;
   border-radius: 10px;
-  box-shadow: 0 0 15px #6884FF;
+  box-shadow: 0 0 15px #6884ff;
   max-height: 700px !important ;
+}
+
+.mCSB_container {
+  width: 100%;
+  height: auto;
 }
