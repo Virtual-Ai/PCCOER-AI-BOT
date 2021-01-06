@@ -182,6 +182,14 @@ app.post('/', express.json(), (request, res) => {
             agent.add("small");
    
     }
+  
+  function clubs(agent){
+      agent.add("These are all the clubs of PCCOE&R");
+      agent.add(
+      '<table>    <div class="cards-listt">        <tr>            <td style="padding: 20px;">                <div class="cardt 1">                    <div class="card_imaget"> <img                            src="http://pccoercomp.com/images/acm.png">                    </div>                </div>            </td>            <td style="padding: 20px;">                <div class="cardt 2">                    <div class="card_imaget"> <img                            src="http://pccoercomp.com/images/Page-1-Image-1.jpg">                    </div>                </div>            </td>            <td style="padding: 20px;">                <div class="cardt 3">                    <div class="card_imaget"> <img                            src="http://pccoeretc.com/images/ETSA.jpg"> </div>                </div>            </td>            <td style="padding: 20px;">                <div class="cardt 4">                    <div class="card_imaget"> <img src="http://pccoeretc.com/images/IEEE.jpg">                    </div>                </div>            </td>        </tr>    </div>    <div class="cards-listt">        <tr>            <td style="padding: 20px;">                <div class="cardt 1">                    <div class="card_imaget"> <img                            src="http://pccoerfe.com/images/fesa.jpg">                    </div>                </div>            </td>            <td style="padding: 20px;">                <div class="cardt 2">                    <div class="card_imaget"> <img                            src="http://pccoer.com/mechanical/images/mesa/mesa-logo.jpg">                    </div>                </div>            </td>            <td style="padding: 20px;">                <div class="cardt 3">                    <div class="card_imaget"> <img                            src="https://aipccoerbot.files.wordpress.com/2021/01/mech_team_nashorns.jpg"> </div>                </div>            </td>            <td style="padding: 20px;">                <div class="cardt 4">                    <div class="card_imaget"> <img src="http://pccoer.com/civil/images/cesa-logo.jpg">                    </div>                </div>            </td>        </tr>    </div></table>'
+      );
+      agent.add("small");
+  }
 
   /*========================================= All QRCodes =================================================*/
   function collegeWebsite(agent) {
@@ -420,6 +428,7 @@ app.post('/', express.json(), (request, res) => {
   intentMap.set('Principal', princi)
   intentMap.set('admissionDocument', admissionDoc)
   intentMap.set('Events', Eventss)
+  intentMap.set('Clubs', clubs)
   intentMap.set('college_website_time_id_phn', collegeWebsite)
   intentMap.set('ERP', erp)
   intentMap.set('College_Location', locnmap)
