@@ -122,7 +122,7 @@ Messages
   align-items: center !important;
   vertical-align: top;
   position: absolute;
-   top: -50px; 
+   top: 0px; 
   /*left: 0;*/
   height: 100%;
   width: 100%;
@@ -1680,6 +1680,7 @@ img {
   font-family: 'Jost', sans-serif !important;
   background-color: #000000 !important;
   font-size: 14px !important;
+  width: 500px;
   max-width: 700px;
   margin: auto;
   overflow-y: auto;
