@@ -26,6 +26,21 @@ app.post('/', express.json(), (request, res) => {
     agent.add('small')
   }
 
+  function clubsCar(agent) {
+    agent.add('Clubs at PCCOER')
+    agent.add(
+      '<div class="container">    <br>    <div class = "carousel-container">    <div id="myCarousel" class="carousel slide" data-ride="carousel">        <div class="carousel-inner" role="listbox">            <div class="item active">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/9-2.png" alt="Chania" width="800" height="425">            </div>            <div class="item">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/10-2.png" alt="Chania" width="800" height="425">            </div>            <div class="item">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/11-1.png" alt="Chania" width="800" height="425">            </div>            <div class="item">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/12-1.png" alt="Chania" width="800" height="425">            </div>            <div class="item">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/13-1.png"alt="Flower"width="800"height="425">            </div>        </div>            <!-- Left and right controls -->        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">                </span>                <span class="sr-only">Previous</span>        </a>        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>                <span class="sr-only">Next</span>        </a>    </div>    </div></div>',
+    )
+    //agent.add('<div class="carousel-inner" role="listbox">            <div class="item active">                <img src="http://pccoer.com/images/awards-achievements/award3.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Most copyrights in one day</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/awards-achievements1.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">38 female faculties have filed patents together on a single day and set a New Record on 17th December 2019 at Indian Patent and Trade Marks Office, Bhoudhik Sampada Bhavan, Antop Hill, Mumbai, Maharashtra.</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/award4.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Go Kart and Baja Event Awards 2018-19</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/awards-achievements3.jpg"alt="Flower"width="800"height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Most Result Oriented College Award by Prime Time Global</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/award1.jpg" alt="Flower" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Team Byte-us Winner in Smart India Hackathon 2019</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/awards-achievements4.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Prof. Dr. Harish Tiwari awarded with “IARDO Academic Leader 2018” and Dr. Rahul Mapari awarded with “IARDO Best Teacher” of the year 2018</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/award7.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;"> BAJA SAE INDIA 2018 at IIT Ropar.<br> All India Rank : 5th</p>            </div>        </div>            <!-- Left and right controls -->        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">                </span>                <span class="sr-only">Previous</span>        </a>        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>                <span class="sr-only">Next</span>        </a>    </div>    </div></div>');
+    agent.add('small')
+  }
+
+  function trustees(agent){
+    agent.add('These are the trustees of our trust')
+    agent.add('<table>              <tr>                    <td style="padding:10px;">                    <div class="cardch" data-state="#about">                            <div class="card-headerch">                                  <div class="card-coverch"></div>                                  <img class="card-avatarch" src="http://www.pccoer.com/images/trust/Shri.-D.-P.-Landge.jpg" alt="avatar" />                                  <h1 class="card-fullnamech"> Shri. Dnyaneshwar P. Landge<br></h1>                                  <h2 class="card-jobtitlech" style="text-align: center;"><br><br>Chairman <br> Pimpri Chinchwad Education Trust                            </h2>                            </div>                            <div class="card-mainch">                                  <div class="card-sectionch" id="about">                                        <div class="card-contentch">                                              <div class="card-subtitlech"></div>                                              <p class="card-descch">                                              </p>                                        </div>                                  </div>                             </div>                      </div>                </td>                <td style="padding:10px;">                      <div class="cardch" data-state="#about">                              <div class="card-headerch">                                    <div class="card-coverch"></div>                                    <img class="card-avatarch" src="http://www.pccoer.com/images/trust/Smt.-Padmatai-Bhosale.jpg" alt="avatar" />                                    <h1 class="card-fullnamech"> Smt. Padmatai M. Bhosale<br></h1>                                    <h2 class="card-jobtitlech" style="text-align: center;"><br><br>Vice Chairperson <br>Pimpri Chinchwad Education Trust</h2>                              </div>                              <div class="card-mainch">                                    <div class="card-sectionch" id="about">                                          <div class="card-contentch">                                                <div class="card-subtitlech"></div>                                                <p class="card-descch">                                                </p>                                          </div>                                    </div>                               </div>                        </div>                  </td>                  <td style="padding:10px;">                        <div class="cardch" data-state="#about">                                <div class="card-headerch">                                      <div class="card-coverch"></div>                                      <img class="card-avatarch" src="http://www.pccoer.com/images/trust/Shri.-V.-S.-Kalbhor.jpg" alt="avatar" />                                      <h1 class="card-fullnamech">Shri. Vitthal S. Kalbhor<br></h1>                                      <h2 class="card-jobtitlech" style="text-align: center;"><br>Secretary <br>Pimpri Chinchwad Education Trust</h2>                                </div>                                <div class="card-mainch">                                      <div class="card-sectionch" id="about">                                            <div class="card-contentch">                                                  <div class="card-subtitlech"></div>                                                  <p class="card-descch">                                                  </p>                                            </div>                                      </div>                                 </div>                          </div>                    </td>            </tr>            <!-- =======================2nd row================================ -->            <tr>                  <td style="padding:10px;">                    <div class="cardch" data-state="#about">                          <div class="card-headerch">                                <div class="card-coverch"></div>                                <img class="card-avatarch" src="http://www.pccoer.com/images/trust/Shri_s_d_garade.jpg" alt="avatar" />                                <h1 class="card-fullnamech">Shri. Shantaram D. Garade<br></h1>                                <h2 class="card-jobtitlech" style="text-align: center;"><br>Treasurer<br>Pimpri Chinchwad Education Trust</h2>                          </div>                          <div class="card-mainch">                                <div class="card-sectionch" id="about">                                      <div class="card-contentch">                                            <div class="card-subtitlech"></div>                                            <p class="card-descch">                                            </p>                                      </div>                                </div>                           </div>                    </div>                </td>                <td style="padding:10px;">                      <div class="cardch" data-state="#about">                              <div class="card-headerch">                                    <div class="card-coverch"></div>                                    <img class="card-avatarch" src="http://www.pccoer.com/images/trust/Shri.-Harshwardhan-S.-Patil.jpg" alt="avatar" />                                    <h1 class="card-fullnamech"> Shri. Harshwardhan S. Patil<br></h1>                                    <h2 class="card-jobtitlech" style="text-align: center;"><br><br>Trustee<br>Pimpri Chinchwad Education Trust</h2>                              </div>                              <div class="card-mainch">                                    <div class="card-sectionch" id="about">                                          <div class="card-contentch">                                                <div class="card-subtitlech"></div>                                                <p class="card-descch">                                                </p>                                          </div>                                    </div>                               </div>                            </div>                      </td>                <td style="padding:10px;">                    <div class="cardch" data-state="#about">                            <div class="card-headerch">                                  <div class="card-coverch"></div>                                  <img class="card-avatarch" src="http://www.pccoer.com/images/trust/Shri.-Bhaijan-Kazi.jpg" alt="avatar" />                                  <h1 class="card-fullnamech"> Late Shri. Bhaijan Kazi                                 <br></h1>      <h2 class="card-jobtitlech" style="text-align: center;"><br><br>Trustee<br>Pimpri Chinchwad Education Trust </h2>                            </div>                            <div class="card-mainch">                                  <div class="card-sectionch" id="about">                                        <div class="card-contentch">                                              <div class="card-subtitlech"></div>                                              <p class="card-descch">                                              </p>                                        </div>                                  </div>                             </div>                      </div>                </td>                </tr>                </table>')
+    agent.add('small');
+  }
+``
   // ----COMPUTER DEPARTMENT CARDS----
   function CompHOD_card(agent) {
     agent.add('H.O.D of computer department is Dr. Archana Chaugule.')
@@ -126,13 +141,6 @@ app.post('/', express.json(), (request, res) => {
     agent.add('small')
   }
 
-  function infra_labs(agent) {
-    agent.add('Our Campus is equipped with top-notch facilities.')
-    agent.add(
-      '<h2>Gallery</h2><table><tr><th class="TH">BME(Mech) Lab</th><th class="TH">Physics Lab</th> <th class="TH">Chemistry Lab</th></tr><tr><td><img src="https://pccoer.com/images/facilities/BME(Mech)lab.jpg" class="tab"></td><td><img src="https://pccoer.com/images/facilities/Physicslab.jpg" class="tab"></td><td><img src="https://pccoer.com/images/facilities/Chemistrylab.jpg" class="tab"></td></tr><tr><th class="TH">Civil Lab</th><th class="TH">BME</th><th class="TH">NDJ</th></tr><tr><td><img src="https://pccoer.com/images/facilities/Civillab.jpg" class="tab"></td><td><img src="https://pccoer.com/images/facilities/BME(Mech)lab.jpg" class="tab"></td><td><img src="https://pccoer.com/images/facilities/BME(Mech)lab.jpg" class="tab"></td></tr></table>',
-    )
-    agent.add('small')
-  }
 
   function Bus_Route1(agent) {
     agent.add(
@@ -240,15 +248,6 @@ app.post('/', express.json(), (request, res) => {
     agent.add('small')
   }
 
-  /*========================================= Department Highlights =================================================*/
-  function compHighlights(agent) {
-    agent.add('Computer Department are as follows')
-    agent.add(
-      ' <body><img src="https://aipccoerbot.files.wordpress.com/2020/12/department-highlights-1-1.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>',
-    )
-    agent.add('small')
-  }
-
   /*========================================= Admission =================================================*/
 
   function admissionDoc(agent) {
@@ -333,6 +332,15 @@ app.post('/', express.json(), (request, res) => {
     }
   }
 
+  function sports(agent) {
+    agent.add('Sport activities at PCCOER')
+    agent.add(
+      '<div class="container">    <br>    <div class = "carousel-container">    <div id="myCarousel" class="carousel slide" data-ride="carousel">        <div class="carousel-inner" role="listbox">            <div class="item active">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/sports-4.png" alt="Chania" width="800" height="425">            </div>            <div class="item">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/sports-2.png" alt="Chania" width="800" height="425">            </div>            <div class="item">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/sports.png" alt="Chania" width="800" height="425">            </div>            <div class="item">                <img src="https://aipccoerbot.files.wordpress.com/2021/01/sports-3.png" alt="Chania" width="800" height="425">            </div>        </div>            <!-- Left and right controls -->        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">                </span>                <span class="sr-only">Previous</span>        </a>        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>                <span class="sr-only">Next</span>        </a>    </div>    </div></div>',
+    )
+    //agent.add('<div class="carousel-inner" role="listbox">            <div class="item active">                <img src="http://pccoer.com/images/awards-achievements/award3.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Most copyrights in one day</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/awards-achievements1.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">38 female faculties have filed patents together on a single day and set a New Record on 17th December 2019 at Indian Patent and Trade Marks Office, Bhoudhik Sampada Bhavan, Antop Hill, Mumbai, Maharashtra.</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/award4.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Go Kart and Baja Event Awards 2018-19</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/awards-achievements3.jpg"alt="Flower"width="800"height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Most Result Oriented College Award by Prime Time Global</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/award1.jpg" alt="Flower" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Team Byte-us Winner in Smart India Hackathon 2019</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/awards-achievements4.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;">Prof. Dr. Harish Tiwari awarded with “IARDO Academic Leader 2018” and Dr. Rahul Mapari awarded with “IARDO Best Teacher” of the year 2018</p>            </div>            <div class="item">                <img src="http://pccoer.com/images/awards-achievements/award7.jpg" alt="Chania" width="800" height="425">                <p style="text-align: center;margin-top: 5px;font-size: 20px !important;"> BAJA SAE INDIA 2018 at IIT Ropar.<br> All India Rank : 5th</p>            </div>        </div>            <!-- Left and right controls -->        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">                </span>                <span class="sr-only">Previous</span>        </a>        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>                <span class="sr-only">Next</span>        </a>    </div>    </div></div>');
+    agent.add('small')
+  }
+
   function intake(agent) {
     try {
       var l = request.body.queryResult.parameters.intakeinfo
@@ -364,6 +372,7 @@ app.post('/', express.json(), (request, res) => {
             agent.add('There is no such department')
         }
       } else {
+         /*========================================= Department Highlights =================================================*/
         switch (l) {
           case 'computer':
             agent.add('Computer Department are as follows')
@@ -376,7 +385,7 @@ app.post('/', express.json(), (request, res) => {
           case 'mechanical':
             agent.add('Mechanical Department are as follows')
             agent.add(
-              ' <body><img src="https://aipccoerbot.files.wordpress.com/2020/12/department-highlights-1-1.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>',
+              ' <body><img src="https://aipccoerbot.files.wordpress.com/2021/01/2.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>',
             )
             agent.add('small')
 
@@ -384,7 +393,7 @@ app.post('/', express.json(), (request, res) => {
           case 'civil':
             agent.add('Civil Department are as follows')
             agent.add(
-              ' <body><img src="https://aipccoerbot.files.wordpress.com/2020/12/department-highlights-1-1.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>',
+              ' <body><img src="https://aipccoerbot.files.wordpress.com/2021/01/1.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>',
             )
             agent.add('small')
 
@@ -392,7 +401,7 @@ app.post('/', express.json(), (request, res) => {
           case 'entc':
             agent.add('ENTC Department are as follows')
             agent.add(
-              ' <body><img src="https://aipccoerbot.files.wordpress.com/2020/12/department-highlights-1-1.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>',
+              ' <body><img src="https://aipccoerbot.files.wordpress.com/2021/01/4.png?w=1024" style=" height: 550px; width: 750px; border-radius: 20px; box-shadow: 0 0 15px #6884FF;"></body>',
             )
             agent.add('small')
 
@@ -421,26 +430,25 @@ app.post('/', express.json(), (request, res) => {
   intentMap.set('Teachers List-E&TC', EnTCProf_list)
   intentMap.set('HOD (FE)', fehod)
   intentMap.set('Teachers List-FE', FeProf_list)
-  intentMap.set('labs-gallery', infra_labs)
   intentMap.set('Bus Route 1', Bus_Route1)
-  intentMap.set('Bus Route 2', Bus_Route2)
+  intentMap.set('Bus Route 2', Bus_Route2)  
   intentMap.set('Bus Route 3', Bus_Route3)
   intentMap.set('Principal', princi)
   intentMap.set('admissionDocument', admissionDoc)
   intentMap.set('Events', Eventss)
-  intentMap.set('Clubs', clubs)
+  intentMap.set('Clubs', clubsCar)
   intentMap.set('college_website_time_id_phn', collegeWebsite)
   intentMap.set('ERP', erp)
   intentMap.set('College_Location', locnmap)
   intentMap.set('cutoffs', cutoffs)
   intentMap.set('QuesPapers', quesp)
   intentMap.set('PrincipalInterview', principalnterview)
-  intentMap.set('Department info - comp', compHighlights)
   intentMap.set('Admission_FE', admissionflow)
   intentMap.set('floor_maps', floor_maps)
   intentMap.set('INTAKE', intake)
   intentMap.set('Department_highligths', intake)
-
+  intentMap.set('Sports', sports)
+  intentMap.set('trustees', trustees)
   agent.handleRequest(intentMap)
 })
 
